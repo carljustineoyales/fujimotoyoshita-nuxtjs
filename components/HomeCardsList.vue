@@ -6,7 +6,9 @@
       class="cardslist__items"
     >
       <HomeCards :content="content" />
+      <!-- cardslist__items -->
     </div>
+    <!-- cardslist -->
   </div>
 </template>
 

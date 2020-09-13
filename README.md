@@ -1,5 +1,14 @@
 # ssr-fujimotoyoshita
 
+## todo
+
+- Meta tag
+- http -> https
+
+## September 13 2020
+
+- added app.html for external scripts and links
+
 ## Build Setup
 
 ```bash

@@ -17,7 +17,9 @@
           <h1 class="cards__title" v-html="this.content['title']"></h1>
           <p class="cards__desc" v-html="this.content['description']"></p>
         </div>
+        <!-- featured-image -->
       </a>
+
       <a
         v-else-if="this.content['embedded-media']"
         :href="this.content['embedded-media']"
@@ -34,7 +36,9 @@
           <h1 class="cards__title" v-html="this.content['title']"></h1>
           <p class="cards__desc" v-html="this.content['description']"></p>
         </div>
+        <!-- embedded-media -->
       </a>
+
       <a
         v-else-if="this.content['media-link']"
         :href="this.content['media-link']"
@@ -51,6 +55,7 @@
           <h1 class="cards__title" v-html="this.content['title']"></h1>
           <p class="cards__desc" v-html="this.content['description']"></p>
         </div>
+        <!-- media-link -->
       </a>
 
       <a
@@ -69,8 +74,12 @@
           <h1 class="cards__title" v-html="this.content['title']"></h1>
           <p class="cards__desc" v-html="this.content['description']"></p>
         </div>
+        <!-- featured-image -->
       </a>
+
+      <!-- cards__img -->
     </div>
+    <!-- cards -->
   </div>
 </template>
 
