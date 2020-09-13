@@ -1,0 +1,28 @@
+.cardslist {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: grid;
+  grid-column-gap: 90px;
+  grid-row-gap: 40px;
+
+  grid-template-columns: repeat(auto-fill, 310px);
+  justify-content: center;
+  &__items {
+    transition: 0.3s ease;
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cardslist {
+    grid-template-columns: repeat(auto-fill, 276px);
+    grid-column-gap: 30px;
+    grid-row-gap: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cardslist {
+    max-width: 480px;
+    grid-row-gap: 40px;
+  }
+}

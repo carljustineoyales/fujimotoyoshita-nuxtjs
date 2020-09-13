@@ -1,0 +1,31 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+#app {
+  min-height: 100vh;
+}
+.home,
+.profile {
+  margin: 50px auto;
+  min-height: 100vh;
+}
+.isLoading {
+  background: #eee;
+}
+.isLoaded {
+  transition: 0.3s ease;
+  background: transparent;
+}
+
+@media screen and (max-width: 768px) {
+  html,
+  body {
+    scroll-behavior: smooth;
+  }
+}
